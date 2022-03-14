@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Healer</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Squada+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <style>
+      body{
+  background-color: #191919 !important;
+  overflow-x: hidden;
+}
+.exp{
+  color: #ffffff;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  margin-left:  4.5rem;
+  font-size: 3rem;
+  margin-top: 150px;
+}
+.exp1{
+  color: #ffffff;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  margin-left:  4.5rem;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.quote{
+  color: #ffffff;
+  margin-left:  4.5rem;
+  font-size: 3rem;
+  font-family: 'Squada One', cursive;
+  font-weight: lighter;
+}
+.container-fluid{
+  padding:3% 15% 11%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.navbar{
+  padding: 0 0 4.5rem;
+  right: 0px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+ .title{
+  font-family: 'Squada One', cursive;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  font-size: 150px;
+
+}
+.title-1{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #ffffff;
+    margin-left: 40px;
+  margin-top: 10rem;
+}
+.title-2{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #ffffff;
+
+  margin-bottom: 10rem;
+}
+.white-strip{
+  top: 0px;
+  max-width: 100%;
+  height: 500px;
+  transform: rotate(45deg);
+}
+.white-strip-thin{
+  max-width: 100%;
+  height: 700px;
+  margin-left: 100px;
+  margin-top: 150px;
+  transform: rotate(45deg);
+  animation: front_back 10s 5;
+}
+@keyframes front_back {
+     0%{top:0px;}
+     50%{left: 10px;}
+     100%{bottom: 0px;}
+
+}
+.grid-img{
+  width: 700px;
+  height: 700px;
+  margin-left: 40px;
+}
+#center{
+  margin-bottom: 10rem;
+  background-color: #282828;
+}
+.button {
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 30px 72px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+  margin-left:  15rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-family: 'Squada One', cursive;
+  font-weight: lighter;
+}
+.footer{
+  background-color: #282828;
+}
+/* SIGNIN AND UP */
+
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+
+        <nav class="navbar navbar-nav ms-auto navbar-expand-lg navbar-dark ">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto " style="margin-left:800px;margin-top:30px;">
+              <li class="nav-item">
+                <a class="nav-link" href="register">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login">Log in</a>
+              </li>
+                            
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-4" style="padding-top:10px;padding-bottom:10px;">
+                <img src="https://healer.shribabapackking.com/images/strip-thin.png" class="white-strip"/>
+                <img src="https://healer.shribabapackking.com/images/strip-white.png" class="white-strip-thin"/>
+          </div>
+        <div class="col-lg-8">
+          
+          <h2 class="title-1">The Human Emotion Recognizer</h2>
+          <h1 class="title">HEALER</h1>
+          <h2 class="title-2">To Awken Human Emotion is a Way of Art.</h2>
+
+        </div>
+
+        </div>
+
+
+
+    </section>
+    <section id="center">
+      <div class="row">
+          <div class="col-lg-6">
+            <h3 class="exp">
+              Emotions can play an important role in how you think and behave.
+              The emotions you feel each day can compel you to take action
+              and influence the decisions you make about your life, both large and small.
+            </h3>
+            <h2 class="quote">Be Emotionaly Intelleginet...
+                Empower your Strength...</h2>
+          </div>
+          <div class="col-lg-4">
+            <img class="grid-img"src="https://healer.shribabapackking.com/images/grid.png" />
+          </div>
+
+      </div>
+    </section>
+    <section>
+      <div class="row">
+          <div class="col-lg-6" style="background-color:#191919;">
+
+
+              <ul>
+                <li>
+                  <h3 class="quote">Create an Account.</h3>
+                  <h4 class="exp1">
+                    When you use our services, you’re trusting us with your information.
+                    We understand this is a big responsibility and work hard to protect your information and put you in control.
+                  </h4>
+                </li>
+                <li>
+                  <h3 class ="quote">Speak with us.</h3>
+                  <h4 class="exp1">
+                    Talking about your feelings isn’t a sign of weakness.
+                    It’s part of taking charge of your wellbeing and doing what you can to stay healthy.
+                  </h4>
+                </li>
+                <li>
+                  <h3 class="quote">Get a Score.</h3>
+                  <h4 class="exp1">
+                    You will be getting a Score and some suggesion so that how u can be more emotionally intelligent.
+                  </h4>
+                </li>
+              </ul>
+
+              <a class="button" href="login">Get Started</a>
+
+
+          </div>
+          <div class="col-lg-4" style="background-color:#191919">
+            <img src="https://healer.shribabapackking.com/images/gif.gif" style="width:80%; margin-left:10rem;"/>
+
+          </div>
+
+      </div>
+    </section>
+    <footer>
+
+				<div class="row mt-5 footer">
+					<div class="col-md-12 text-center"style="background-color:#282828; margin-top:2rem;">
+						<p class="copyright" style="color:#ffffff"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This webiste is made by Veda Varsha M S
+					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+  </body>
+</html>
